@@ -451,3 +451,16 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+#build/
+[Bb]in/
+[Oo]bj/
