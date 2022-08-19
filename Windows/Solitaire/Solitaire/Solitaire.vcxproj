@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D40536A6-F391-4682-82AA-E989303D36DF}</ProjectGuid>
+    <RootNamespace>Solitaire</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Back.bmp" />
+    <None Include="res\background2.bmp" />
+    <None Include="res\background33.bmp" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap4.bmp" />
+    <None Include="res\bitmap5.bmp" />
+    <None Include="res\bmp01.bmp" />
+    <None Include="res\bmp02.bmp" />
+    <None Include="res\bmp03.bmp" />
+    <None Include="res\bmp04.bmp" />
+    <None Include="res\bmp05.bmp" />
+    <None Include="res\bmp06.bmp" />
+    <None Include="res\bmp07.bmp" />
+    <None Include="res\bmp08.bmp" />
+    <None Include="res\bmp09.bmp" />
+    <None Include="res\bmp1.bmp" />
+    <None Include="res\bmp10.bmp" />
+    <None Include="res\bmp11.bmp" />
+    <None Include="res\bmp12.bmp" />
+    <None Include="res\bmp13.bmp" />
+    <None Include="res\bmp14.bmp" />
+    <None Include="res\bmp15.bmp" />
+    <None Include="res\bmp16.bmp" />
+    <None Include="res\bmp17.bmp" />
+    <None Include="res\bmp18.bmp" />
+    <None Include="res\bmp19.bmp" />
+    <None Include="res\bmp2.bmp" />
+    <None Include="res\bmp20.bmp" />
+    <None Include="res\bmp21.bmp" />
+    <None Include="res\bmp22.bmp" />
+    <None Include="res\bmp23.bmp" />
+    <None Include="res\bmp24.bmp" />
+    <None Include="res\bmp25.bmp" />
+    <None Include="res\bmp26.bmp" />
+    <None Include="res\bmp27.bmp" />
+    <None Include="res\bmp28.bmp" />
+    <None Include="res\bmp29.bmp" />
+    <None Include="res\bmp3.bmp" />
+    <None Include="res\bmp30.bmp" />
+    <None Include="res\bmp31.bmp" />
+    <None Include="res\bmp32.bmp" />
+    <None Include="res\bmp33.bmp" />
+    <None Include="res\bmp34.bmp" />
+    <None Include="res\bmp35.bmp" />
+    <None Include="res\bmp36.bmp" />
+    <None Include="res\bmp37.bmp" />
+    <None Include="res\bmp38.bmp" />
+    <None Include="res\bmp39.bmp" />
+    <None Include="res\bmp4.bmp" />
+    <None Include="res\bmp40.bmp" />
+    <None Include="res\bmp41.bmp" />
+    <None Include="res\bmp42.bmp" />
+    <None Include="res\bmp43.bmp" />
+    <None Include="res\bmp44.bmp" />
+    <None Include="res\bmp45.bmp" />
+    <None Include="res\bmp46.bmp" />
+    <None Include="res\bmp47.bmp" />
+    <None Include="res\bmp48.bmp" />
+    <None Include="res\bmp49.bmp" />
+    <None Include="res\bmp5.bmp" />
+    <None Include="res\bmp50.bmp" />
+    <None Include="res\bmp51.bmp" />
+    <None Include="res\bmp52.bmp" />
+    <None Include="res\bmp6.bmp" />
+    <None Include="res\bmp7.bmp" />
+    <None Include="res\bmp8.bmp" />
+    <None Include="res\bmp9.bmp" />
+    <None Include="res\Solitaire.ico" />
+    <None Include="res\Solitaire.rc2" />
+    <None Include="res\SolitaireDoc.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="CardGame.h" />
+    <ClInclude Include="DlgSetOption.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Pyramid.h" />
+    <ClInclude Include="PyramidStorage.h" />
+    <ClInclude Include="PyramidTest.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Solitaire.h" />
+    <ClInclude Include="SolitaireDoc.h" />
+    <ClInclude Include="SolitaireView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="CardGame.cpp" />
+    <ClCompile Include="DlgSetOption.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Pyramid.cpp" />
+    <ClCompile Include="PyramidStorage.cpp" />
+    <ClCompile Include="PyramidTest.cpp" />
+    <ClCompile Include="Solitaire.cpp" />
+    <ClCompile Include="SolitaireDoc.cpp" />
+    <ClCompile Include="SolitaireView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Solitaire.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Solitaire.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
